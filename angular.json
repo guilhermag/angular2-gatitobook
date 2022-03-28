@@ -28,7 +28,9 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "./node_modules/font-awesome/css/font-awesome.css"
             ],
             "scripts": []
           },
@@ -123,6 +125,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "gatitobook"
+    }
+  },
+  "defaultProject": "gatitobook",
+  "cli": {
+    "analytics": "56173a60-f202-4689-8c56-3469fa893d88"
+  }
 }
