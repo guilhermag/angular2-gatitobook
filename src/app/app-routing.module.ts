@@ -10,13 +10,17 @@ const routes: Routes = [
   {
     path: 'home',
     loadChildren: () =>
-    import('./home/home.module')
-    .then((mod) => mod.HomeModule)
-  }
+      import('./home/home.module').then((mod) => mod.HomeModule),
+  },
+  {
+    path: 'animais',
+    loadChildren: () =>
+      import('./animais/animais.module').then((mod) => mod.AnimaisModule),
+  },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}
