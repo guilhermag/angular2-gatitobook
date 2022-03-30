@@ -45,7 +45,6 @@
               "optimization": true,
               "outputHashing": "all",
               "sourceMap": false,
-              "extractCss": true,
               "namedChunks": false,
               "extractLicenses": true,
               "vendorChunk": false,
@@ -129,6 +128,6 @@
   },
   "defaultProject": "gatitobook",
   "cli": {
-    "analytics": "56173a60-f202-4689-8c56-3469fa893d88"
+    "analytics": "50afb22d-5820-4918-9761-06657fa805e8"
   }
 }
